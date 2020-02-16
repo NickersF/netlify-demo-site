@@ -1,0 +1,38 @@
+/* 
+Author: Nicholas Fazzolari
+This style sheet contains basic visual rules for the Netlify demo site
+*/
+
+@import url('https://rsms.me/inter/inter.css');
+
+html { font-family: 'Inter', sans-serif; }
+
+@supports (font-variation-settings: normal) {
+    html { font-family: 'Inter var', sans-serif; }
+}
+
+body { margin: 0; }
+
+.wrapper {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #ECEFF1;
+    
+}
+
+.dark-background {
+    background-color: #283593;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Shrikhand', cursive;
+    color: #FAFAFA;
+}
+
+p {
+    color: #FAFAFA;
+}
